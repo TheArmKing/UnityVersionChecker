@@ -9,3 +9,5 @@ OR
 
 # Info
 It simply just reads the bytes off a file. .assets, sometimes .resources and extentionless resources in the assets/bin/data usually work!
+
+The script uses xxd to read and convert the bytes, it should work on Mac/Linux and a Jailbroken iOS. For android a different version is uploaded that needs Busybox binaries installed to access xxd!
