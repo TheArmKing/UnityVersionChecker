@@ -20,6 +20,7 @@ zippidy(){
   rm "/tmp/j2vj2nl1moi3p1p"
 }
 if [ "$1" == "" ]; then read -p "File Path: " pat; else pat="$1"; fi
+if [ ! -f "$pat" ]; then thdpl "File doesn't exist" && exit; fi
 exion="$(echo "$pat" | tail -c 5)"
 if [ "$exion" == ".apk" ]; then
   thdpl "APK Detected"
