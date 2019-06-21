@@ -10,8 +10,11 @@ OR
 # Info
 ~~It simply just reads the bytes off a file. .assets, sometimes .resources and extentionless resources in the assets/bin/data usually work!~~
 ~~The script uses xxd to read and convert the bytes, it should work on Mac/Linux and a Jailbroken iOS. For android a different version is uploaded that needs Busybox binaries installed to access xxd!~~ \
-UPDATED 1.1
+UPDATE 1.1
 - BUSYBOX not needed anymore for android
 - Can read through .ipa and .apk
 - Android Version almost identical with only directory and other minor changes
 - Data/Resources/unity_builtin_extra for Android and iOS and also Data/unity default resources for Android
+
+UPDATE 1.11
+- Input file is now checked for its existance so unzip doesn't throw errors
